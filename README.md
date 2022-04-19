@@ -159,6 +159,21 @@ sh test/kissfft-testsuite.sh
 Please note that the extended testsuite takes around 20-40 minutes depending on device
 it runs on. This testsuite is useful for reporting bugs or testing the pull requests.
 
+## ARDUINO 
+
+### Installation
+
+You can download the library as zip and call include Library -> zip library. Or you can git clone this project into the Arduino libraries folder e.g. with
+
+```
+cd  ~/Documents/Arduino/libraries
+git clone pschatzmann/kissfft.git
+```
+
+### Configuration
+You can define the data type with the help of the kiss_arduino_config.h file. 
+
+
 ## BACKGROUND
 
 I started coding this because I couldn't find a fixed point FFT that didn't 

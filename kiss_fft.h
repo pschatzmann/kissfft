@@ -14,6 +14,11 @@
 #include <math.h>
 #include <string.h>
 
+#ifdef ARDUINO
+#include "kiss_arduino_config.h"
+#endif
+
+
 // Define KISS_FFT_SHARED macro to properly export symbols
 #ifdef KISS_FFT_SHARED
 # ifdef _WIN32
