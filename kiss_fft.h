@@ -14,7 +14,7 @@
 #include <math.h>
 #include <string.h>
 
-#ifdef ARDUINO
+#if defined(ARDUINO) && !defined(IGNORE_ARDUINO_CONFIG)
 #include "kiss_arduino_config.h"
 #endif
 
